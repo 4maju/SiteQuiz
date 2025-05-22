@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz de Programação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="start-container">
+    <h1>Quiz de Programação</h1>
+    <input type="text" id="username" placeholder="Digite seu nome">
+    <button onclick="startQuiz()">Começar Quiz</button>
+  </div>
+
+  <div class="container" id="quiz-container" style="display: none;">
+    <div id="quiz-header">
+      <h2 id="question-text"></h2>
+      <div id="timer">Tempo restante: 300s</div>
+    </div>
+    <div id="answers"></div>
+    <button onclick="nextQuestion()">Próxima Pergunta</button>
+  </div>
+
+  <div class="container" id="result-container" style="display: none;">
+    <h2>Resultado Final</h2>
+    <p id="user-score"></p>
+    <div id="explanations"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
