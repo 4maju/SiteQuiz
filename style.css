@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #ff6a00, #ee0979);
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Roxo para azul */
   color: white;
   text-align: center;
   margin: 0;
@@ -22,41 +22,49 @@ input {
   border: none;
   border-radius: 5px;
   margin-top: 20px;
+  width: 250px;
 }
 
 button {
   padding: 12px 24px;
-  background-color: #fff;
-  color: #ff3c83;
+  background-color: #32ff7e; /* Verde limão */
+  color: #0c0c0c;
   font-weight: bold;
   border: none;
   border-radius: 8px;
   margin-top: 20px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #ffdbec;
+  background-color: #18dcff; /* Turquesa */
+  color: black;
 }
 
 #answers button {
   display: block;
   margin: 12px auto;
-  width: 60%;
+  width: 70%;
   background-color: #fff;
-  color: #ee0979;
+  color: #2575fc;
   border: none;
   padding: 10px;
   border-radius: 6px;
+  font-size: 16px;
+  transition: background-color 0.2s;
 }
 
 #answers button:hover {
-  background-color: #ffd6e0;
+  background-color: #c0f5ff;
+  color: #000;
 }
 
 #header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
